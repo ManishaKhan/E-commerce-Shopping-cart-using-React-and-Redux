@@ -68,7 +68,7 @@ const Header = () => {
 
     return (
         <>
-            <Navbar bg="dark" variant="dark" style={{ height: "60px" }} >
+            <Navbar bg="dark" variant="dark" style={{ height: "60px" }} sticky="top">
                 <Container>
                     <NavLink to='/' className="text-decoration-none mx-3"><Navbar.Brand ><TiChartPieOutline style={{ fontSize: 50, cursor: "pointer" }} /></Navbar.Brand></NavLink>
 
